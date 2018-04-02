@@ -37,7 +37,7 @@ attr_accessor :coach
   def team_result(result)
     if result == "W"
       @points += 3
-    elsif result == "L"
+    else result == "L"
       @points += 0
     end
   end
